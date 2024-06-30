@@ -6,14 +6,14 @@ databases:
 
 services:
   - type: web
-    name: mysite
+    name: blog
     runtime: ruby
     plan: free
     buildCommand: "./bin/render-build.sh"
     # preDeployCommand: "bundle exec rails db:migrate" # preDeployCommand only available on paid instance types
     startCommand: "bundle exec rails server"
     envVars:
-      - key: postgresql://blog_z6at_user:MPa9DD3QMb2JHVfzOjvuJMz8vn7jvGnG@dpg-cq0s5v6ehbks73egvlbg-a/blog_z6at
+      - key: DATABASE_URL
         fromDatabase:
           name: mysite
           property: connectionString
