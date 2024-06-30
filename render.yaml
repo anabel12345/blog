@@ -1,7 +1,7 @@
 databases:
   - name: blog
-    databaseName: dpg-cq0s5v6ehbks73egvlbg-a
-    user: Annabelle White
+    databaseName: PostgreSQL
+    user: blog_z6at_user
     plan: free
 
 services:
