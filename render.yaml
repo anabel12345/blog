@@ -1,6 +1,6 @@
 databases:
   - name: blog
-    databaseName: blog
+    #databaseName: PostgreSQL
     user: Annabelle White
     plan: free
 
