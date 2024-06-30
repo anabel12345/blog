@@ -1,6 +1,6 @@
 databases:
   - name: blog
-    databaseName: PostgreSQL
+    databaseName: blog_z6at
     user: blog_z6at_user
     plan: free
 
